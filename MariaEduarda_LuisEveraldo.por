@@ -1,6 +1,7 @@
 programa
 {
-	caracter jogoVelha[3][3]
+//Gilbertin, não mata eu por ter variável global please
+caracter jogoVelha[3][3]
 	
 	funcao limparJogo() {
 		para (inteiro i = 0; i < 3; i++) {
@@ -190,6 +191,7 @@ programa
 		escreva("Até mais!")
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
